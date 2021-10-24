@@ -1,0 +1,137 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61758FB1
+P 2950 2850
+F 0 "SW1" H 2950 3135 50  0000 C CNN
+F 1 "SW_Push" H 2950 3044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2950 3050 50  0001 C CNN
+F 3 "" H 2950 3050 50  0001 C CNN
+	1    2950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 6175903E
+P 4700 2900
+F 0 "SW2" H 4700 3185 50  0000 C CNN
+F 1 "SW_Push" H 4700 3094 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+	1    4700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 6175906C
+P 6150 2850
+F 0 "SW3" H 6150 3135 50  0000 C CNN
+F 1 "SW_Push" H 6150 3044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 6150 3050 50  0001 C CNN
+F 3 "" H 6150 3050 50  0001 C CNN
+	1    6150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6175921A
+P 3050 1150
+F 0 "D1" H 3041 1366 50  0000 C CNN
+F 1 "LED" H 3041 1275 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 1150 50  0001 C CNN
+F 3 "~" H 3050 1150 50  0001 C CNN
+	1    3050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 61759285
+P 4350 1100
+F 0 "D2" H 4341 1316 50  0000 C CNN
+F 1 "LED" H 4341 1225 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4350 1100 50  0001 C CNN
+F 3 "~" H 4350 1100 50  0001 C CNN
+	1    4350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 617592BF
+P 5700 1100
+F 0 "D3" H 5691 1316 50  0000 C CNN
+F 1 "LED" H 5691 1225 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5700 1100 50  0001 C CNN
+F 3 "~" H 5700 1100 50  0001 C CNN
+	1    5700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 6175958B
+P 9400 2200
+F 0 "BT1" H 9508 2246 50  0000 L CNN
+F 1 "Battery" H 9508 2155 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_2468_2xAAA" V 9400 2260 50  0001 C CNN
+F 3 "~" V 9400 2260 50  0001 C CNN
+	1    9400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_PIC16:PIC16F1454-IP U1
+U 1 1 61759CA8
+P 6000 4200
+F 0 "U1" H 6000 4978 50  0000 C CNN
+F 1 "PIC16F1454-IP" H 6000 4887 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6000 4200 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/41639A.pdf" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61759DDE
+P 9000 3700
+F 0 "C1" H 9115 3746 50  0000 L CNN
+F 1 "C" H 9115 3655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 9038 3550 50  0001 C CNN
+F 3 "~" H 9000 3700 50  0001 C CNN
+	1    9000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 6175A655
+P 9550 4850
+F 0 "J1" H 9656 5228 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 9656 5137 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 9550 4850 50  0001 C CNN
+F 3 "~" H 9550 4850 50  0001 C CNN
+	1    9550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW4
+U 1 1 6175AAD5
+P 7500 2150
+F 0 "SW4" H 7500 2435 50  0000 C CNN
+F 1 "SW_SPDT" H 7500 2344 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 7500 2150 50  0001 C CNN
+F 3 "" H 7500 2150 50  0001 C CNN
+	1    7500 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
