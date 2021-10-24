@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "MCU_Microchip_PIC16(L)F15313_23")(type Legacy)(uri "/home/qh8404/git/js_gh/tiger-lily-game-1/eng/kicad/library/MCU_Microchip_PIC16(L)F15313_23.lib")(options "")(descr ""))
+)

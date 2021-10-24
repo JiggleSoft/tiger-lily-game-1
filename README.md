@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is an implementation of an electronic reaction game built with the Microchip PIC16F1454 MCU.
+This is an implementation of an electronic reaction game built with the Microchip PIC16F15323 MCU.
 All work is performed by Tiger-Lily under the supervision of her father.
 
 
@@ -49,7 +49,7 @@ TODO: !!!
 
 ### Summary
 
-Microchip PIC16F1445-I/P or -E/P Microcontroller.
+Microchip PIC16F15323-I/P or -E/P Microcontroller.
  * TODO
 
 
