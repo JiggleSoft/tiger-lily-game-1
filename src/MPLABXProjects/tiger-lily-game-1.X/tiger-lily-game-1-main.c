@@ -9,6 +9,9 @@
 #include <stdlib.h>
 
 
+#define forever while(1)
+
+
 // ============================== COMMON ==============================
 
 #define COLOUR_NONE 0
@@ -80,14 +83,63 @@ void sound_play(int colour)
 }
 
 
+// ============================== INIT ==============================
+
+State init(void)
+{
+    return NEW_GAME;
+}
+
+
+State new_game()
+{
+    return PLAY_GAME;
+}
+
+State play_game()
+{
+    return END_GAME;
+}
+
+State show_winner()
+{
+    //return SHOW_WIN;
+    return SLEEP;
+}
+
+State sleep()
+{
+    return SLEEP;
+}
 
 // ============================== MAIN ==============================
+
+enum State { RESET, NEW_GAME, PLAY_GAME, END_GAME, SLEEP };
+
+static State state;
+
 
 /*
  * 
  */
 int main(int argc, char** argv) {
-    new_sequence();
+    state = RESET;
+    state = init();
+    do {
+        switch(state)
+        {
+            case RESET:
+                state = init();
+                break;
+            case NEW_GAME:
+                state = new_game();
+                break;
+            case NEW_GAME:
+                state = play_game();
+                break;
+        }
+        
+    } forever;
     return (EXIT_SUCCESS);
 }
 
