@@ -86,7 +86,7 @@ U 1 1 6175958B
 P 9300 1700
 F 0 "BT1" H 9408 1746 50  0000 L CNN
 F 1 "Battery" H 9408 1655 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2468_2xAAA" V 9300 1760 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_2479_3xAAA" V 9300 1760 50  0001 C CNN
 F 3 "~" V 9300 1760 50  0001 C CNN
 	1    9300 1700
 	1    0    0    -1  
@@ -391,11 +391,11 @@ Wire Wire Line
 	5650 1050 5650 1400
 Wire Wire Line
 	6250 1050 6250 1400
-Text Label 6050 4700 0    50   ~ 0
+Text Label 6050 4900 0    50   ~ 0
 SW_P1
 Text Label 6050 4800 0    50   ~ 0
 SW_GO
-Text Label 6050 4900 0    50   ~ 0
+Text Label 6050 4700 0    50   ~ 0
 SW_P2
 Text Label 5050 1050 0    50   ~ 0
 SW_P1
